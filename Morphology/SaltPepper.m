@@ -1,4 +1,4 @@
-I = imread('./noises.png');
+I = imread('../images/salt_pepper_2.png');
 s = ones(3,3);
 
 I1 = imopen(I,s);
